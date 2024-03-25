@@ -105,7 +105,7 @@ const updateUi = (change) => {
   result.innerHTML = "";
   cash.value = "";
   changeDrawer.innerHTML = "";
-  result.style.backgroundColor = 'darkblue';
+  result.style.backgroundColor = 'rgb(4, 4, 105)';
   const changeRecordStrArr = change.map((el) => {
     if (typeof el[1] === "number") {
       return `${el[0]}: $${el[1] / 100}`;
