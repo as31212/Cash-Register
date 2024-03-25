@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 2rem;
+    font-size: 3rem;
+}
+#entry{
+    width: 500px;
+    height: auto;
+    min-height: 110px;
+    background-color: brown;
+    border-radius: 10px;
+}
+#entry input {
+    display: block;
+    margin: 1rem auto 2rem auto;
+    width: 25%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+#entry label{
+    text-align: center;
+    display: block;
+    font-size: 1.25rem;
+}
+#entry button{
+    margin: 1rem auto;
+    display: block;
+    width: 20%;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: brown;
+}
+#entry button:hover{
+cursor: pointer;
+}
+#register{
+    width: 500px;
+    height: auto;
+    background-color: coral;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#change-due{
+    width: auto;
+    height: auto;
+    background-color: brown;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 1rem ;
+    padding: 1rem;
+    border-radius: 10px;
+}
